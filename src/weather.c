@@ -73,14 +73,14 @@ static void window_load(Window *window) {
   s_icon_layer = bitmap_layer_create(GRect(0, 10, bounds.size.w, 80));
   layer_add_child(window_layer, bitmap_layer_get_layer(s_icon_layer));
 
-  s_city_layer = text_layer_create(GRect(0, 122, bounds.size.w, 32));
+  s_city_layer = text_layer_create(GRect(0, 90, bounds.size.w, 32));
   text_layer_set_text_color(s_city_layer, GColorWhite);
   text_layer_set_background_color(s_city_layer, GColorClear);
   text_layer_set_font(s_city_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
   text_layer_set_text_alignment(s_city_layer, GTextAlignmentCenter);
   layer_add_child(window_layer, text_layer_get_layer(s_city_layer));
 
-  s_temperature_layer = text_layer_create(GRect(0, 90, bounds.size.w, 32));
+  s_temperature_layer = text_layer_create(GRect(0, 122, bounds.size.w, 32));
   text_layer_set_text_color(s_temperature_layer, GColorWhite);
   text_layer_set_background_color(s_temperature_layer, GColorClear);
   text_layer_set_font(s_temperature_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
