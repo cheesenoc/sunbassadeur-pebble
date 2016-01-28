@@ -13,6 +13,13 @@
     "resources": {
         "media": [
             {
+                "file": "images/icon-28.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
                 "file": "images/light.png",
                 "name": "IMAGE_LIGHT",
                 "targetPlatforms": null,
